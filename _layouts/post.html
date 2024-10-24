@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1>{{ page.title }}</h1>
+  <div>
+    <span>Page Views: </span><span id="goatcounter-count">Loading...</span>
+  </div>
+  <div>
+    {{ content }}
+  </div>
+</div>
+
+<script data-goatcounter="https://cyberowl.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+
+<script>
+  async function fetchPageViewCount() {
+    var r = new XMLHttpRequest();
+    r.addEventListener('load', function() {
+        document.getElementById('goatcounter-count').innerText = JSON.parse(this.responseText).count
+    })
+    r.open('GET', 'https://cyberowl.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
+    r.send()
+  }
+
+  document.addEventListener('DOMContentLoaded', fetchPageViewCount);
+</script>
