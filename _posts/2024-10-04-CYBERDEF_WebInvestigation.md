@@ -120,3 +120,31 @@ _HTTP 200 OK — Invalid username or password_
 The last answer can be answered by analyzing the last packet of question 7.
 ![Malicious script](assets/img/2024-11-04-CYBERDEF-WebInvestigation/11_malicious_script.png)
 _Malicious script_
+
+All flags down, mission passed.
+
+![](https://media1.tenor.com/m/lQBJJmatxPYAAAAd/mission-accomplished-penguins.gif)
+
+Be proud of what you’ve accomplished.
+
+See you soon!
+
+> “It takes 20 years to build a reputation and a few minutes of cyber-incident to ruin it.” – Stephane Nappo
+
+## Comments
+<script src="https://giscus.app/client.js"
+        data-repo="Deomorphisme/Deomorphisme.github.io"
+        data-repo-id="R_kgDONEIr-Q"
+        data-category="General"
+        data-category-id="DIC_kwDONEIr-c4CjomU"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
