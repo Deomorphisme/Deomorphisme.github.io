@@ -1,8 +1,8 @@
 ---
-title: THM — U.A. High School (easy)
+title: Write-up — U.A. High School
 date: 2024-12-22 01:34:27
 categories: [Write-up, TryHackMe]
-tags: [tryhackme, write-up, ctf, easy]
+tags: [Tryhackme, Write-up, ctf]
 image: 'assets/img/articles/U.A. High School.png'
 description: Short summary of the post.
 ---
