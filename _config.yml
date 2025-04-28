@@ -16,7 +16,7 @@ timezone: Europe/Paris
 
 title: Cyber Owl # the main title
 
-tagline: Cyber security engineer | Defensive security enthousiast # it will display as the subtitle
+tagline: Cybersecurity engineer # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Discover expert insights on penetration testing, defensive security, and security frameworks. Our site offers in-depth guides, best practices, and the latest updates on regulatory compliance for IT professionals and security enthusiasts. Enhance your skills and stay protected with our comprehensive resources and tutorials.
