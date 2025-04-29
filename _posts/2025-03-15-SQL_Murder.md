@@ -35,7 +35,8 @@ select * from person where (address_street_name="Franklin Ave" and name like "An
 | id    | name           | license_id | address_number | address_street_name | ssn       |
 | ----- | -------------- | ---------- | -------------- | ------------------- | --------- |
 | 16371 | Annabel Miller | 490173     | 103            | Franklin Ave        | 318771143 |
-### Find the interview of the witnesses
+
+### Finding the interview of the witnesses
 
 ```sql
 select person.id, person.name, interview.transcript from person
@@ -128,6 +129,11 @@ where person.id=28819 or person.id=67318;
 Only **Jeremy Bowers** left as a suspect. It seems Joe Germuska doesn't owns a car.
 `plate number="0H42W2" | car make="Chevrolet" | car_model="Spark LS"`
 
+
+- *Let's check the annual income of our suspect*
+`annual income=$10500`
+Hard to guess the motive! Seems not a killer for hire. May be police already interviewed him.
+
 - *Let's check our suspect*
 
 ```sql
@@ -139,20 +145,17 @@ select value from solution
 Congrats, you found the murderer! But wait, there's more... If you think you're up for a challenge, try querying the interview transcript of the murderer to find the real villain behind this crime. If you feel especially confident in your SQL skills, try to complete this final step with no more than 2 queries. Use this same INSERT statement with your new suspect to check your answer.
 ```
 
-
-- *Let's check the annual income of our suspect*
-`annual income=$10500`
-Hard to guess the motive! Seems not a killer for hire. May be police already interviewed him.
-
-- Check the police interview
+- The police interview
 
 ```sql
 select transcript from interview where person_id=67318;
 ```
 
-| transcript                                                                                                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| I was hired by a woman with a lot of money. I don't know her name but I know she's around 5'5" (65") or 5'7" (67"). She has red hair and she drives a Tesla Model S. I know that she attended the SQL Symphony Concert 3 times in December 2017. |
+```text
+# Tanscript
+
+I was hired by a woman with a lot of money. I don't know her name but I know she's around 5'5" (65") or 5'7" (67"). She has red hair and she drives a Tesla Model S. I know that she attended the SQL Symphony Concert 3 times in December 2017.
+```
 
 **mybad! Killer for hire!**
 - Hired by a woman with a lot money
@@ -163,7 +166,7 @@ select transcript from interview where person_id=67318;
 
 ## Finding the woman
 
-```SQL
+```sql
 select * from drivers_license
 where hair_color="red"
 and height between 65 and 67
@@ -196,6 +199,7 @@ group by facebook_event_checkin.event_name;
 | id    | name             | address_street_name | annual_income | event_name           | count(*) |
 | ----- | ---------------- | ------------------- | ------------- | -------------------- | -------- |
 | 99716 | Miranda Priestly | Golden Ave          | 310000        | SQL Symphony Concert | 3        |
+
 It seems the red haired woman is `Miranda Priestly`.
 
 **The truth**
@@ -212,7 +216,7 @@ Congrats, you found the brains behind the murder! Everyone in SQL City hails you
 ---
 
 
-- [u] [4 others SQL game including SQL murder mystery](https://datalemur.com/blog/games-to-learn-sql#sql-police-department)
+- [4 others SQL game including SQL murder mystery](https://datalemur.com/blog/games-to-learn-sql#sql-police-department)
 
 
 ## Comments
