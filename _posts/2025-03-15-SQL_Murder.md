@@ -1,7 +1,7 @@
 ---
 title: Walkthrough — SQL Murder Mystery
 date: 2025-03-15 10:00:00 PM
-categories: [Write-up, Try Hack Me]
+categories: [Write-up]
 tags: [SQL, ctf, Easy]
 image: 'assets/img/2025-03-15-SQL_Murder/SQL_Murder_Mystery_Clue_Illustration.png'
 description: SQL Murder Mystery is an interactive learning experience that combines SQL querying with a captivating detective narrative. Players take on the role of a detective tasked with solving a murder case by analyzing a SQL database containing various tables, such as crime scene reports, witness statements, and city records. By writing and executing SQL queries, participants uncover clues, establish connections, and ultimately identify the murderer. This engaging approach not only enhances SQL skills but also makes learning data analysis and querying techniques enjoyable and immersive.
