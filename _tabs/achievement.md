@@ -5,7 +5,7 @@ order: 5
 ---
 
 ## TryHackMe badge
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1349650" style='border:none;'></iframe>
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1349650" style='border:none; height: 88px; width: 329px; background-color: #1b1b1e'></iframe>
 
 ## Google Cybersecurity Professional Certificate V2
 > Issued by Coursera
