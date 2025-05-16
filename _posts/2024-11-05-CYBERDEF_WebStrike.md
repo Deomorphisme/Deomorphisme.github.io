@@ -7,8 +7,6 @@ image: 'assets/img/articles/CYBERDEF-WebStrike.webp'
 description: This is a network forensics lab focused on packet inspection, as we follow the steps of a malicious actor who broke in by taking advantage of a vulnerable web application.
 ---
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcyber-owl.xyz%2Fposts%2FCYBERDEF_WebStrike%2F&count_bg=%23CC1AE4&title_bg=%239415C8&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
-
 > Walkthrough of Lab **WebStrike** from CyberDefenders:\
 > [https://cyberdefenders.org/blueteam-ctf-challenges/webstrike/](https://cyberdefenders.org/blueteam-ctf-challenges/webstrike/)
 
