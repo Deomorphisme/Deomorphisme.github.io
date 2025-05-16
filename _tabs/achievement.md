@@ -4,6 +4,9 @@ icon: fas fa-certificate
 order: 5
 ---
 
+## TryHackMe badge
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1349650" style='border:none;'></iframe>
+
 ## Google Cybersecurity Professional Certificate V2
 > Issued by Coursera
 
