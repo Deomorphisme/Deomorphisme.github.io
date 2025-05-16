@@ -7,8 +7,6 @@ image: 'assets/img/articles/CYBERDEF-Web investigation.webp'
 description: This is a network forensics lab focused on packet inspection, as we follow the steps of a malicious actor who broke in by taking advantage of a vulnerable web application.
 ---
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwww.cyber-owl.xyz%2Fposts%2FCYBERDEF_WebInvestigation%2F&count_bg=%23B62FDB&title_bg=%238B18A0&icon=&icon_color=%23B43B3B&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
-
 > Walkthrough of Lab **Web Investigation** from CyberDefenders:\
 > [https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/](https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/)
 
