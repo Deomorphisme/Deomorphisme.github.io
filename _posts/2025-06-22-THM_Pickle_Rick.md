@@ -4,13 +4,14 @@ date: 2025-06-22 05:00:00 PM
 categories: [Write-up, Try Hack Me]
 tags: [Try Hack Me, Write-up, ctf]
 image: 'assets/img/articles/PickleRick.png'
-description: 
+description: Discover a comprehensive walkthrough of the 'Pickle Rick' CTF challenge on TryHackMe. This guide covers essential techniques such as initial reconnaissance, web exploitation, and privilege escalation. Ideal for cybersecurity professionals and ethical hackers aiming to enhance their skills. Dive into our detailed guide and master the challenge today!
+
 ---
 
 > Walkthrough of room Brains from TryHackMe :
 > [https://tryhackme.com/room/picklerick](https://tryhackme.com/room/picklerick)
 
-[This room has two parts, the first one is offensive and the second one is defensive.]
+This Rick and Morty-themed challenge requires you to exploit a web server and find three ingredients to help Rick make his potion and transform himself back into a human from a pickle.
 
 ---
 
