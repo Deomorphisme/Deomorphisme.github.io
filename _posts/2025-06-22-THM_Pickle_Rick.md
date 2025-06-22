@@ -252,6 +252,7 @@ All flags down, mission passed.
 Be proud of what you’ve accomplished.
 
 > "Even garbage can become intel—hackers look everywhere."
+
 > ― Kevin Mitnick, Former Hacker turned Security Consultant
 
 ## Comments
