@@ -64,7 +64,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 0.96 seconds
 ```
 
-![You said asterix](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXU1eTFkMHB4bDRtbHc4OXlueXhhYnFodTRyNGN4OXozczE0MDhubSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1Md9azxcgIyQ/giphy.gif){: w="500"}
+![You said asterix](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXU1eTFkMHB4bDRtbHc4OXlueXhhYnFodTRyNGN4OXozczE0MDhubSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1Md9azxcgIyQ/giphy.gif)
 _You said Asterix!!!_
 
 So we have 4 services running:
@@ -92,7 +92,8 @@ A great new is we have a cve (**CVE-2023-30258**) for our web app.
 ![](assets/img/2025-07-16-THM-Billing/metasploit-magnus-search.png){: w="600"}
 
 And it's also available on metasploit!!!
- ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2Q0ZTZkZmlwMDZiZXZlNXU1Y2M3dW8wYWcwZDZuZzk1b2pqem95eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BYul6RujgoRCryuCdL/giphy.gif){: w="500"}
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2Q0ZTZkZmlwMDZiZXZlNXU1Y2M3dW8wYWcwZDZuZzk1b2pqem95eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BYul6RujgoRCryuCdL/giphy.gif)
 
 A little config on the exploit to make it work.
 ![](assets/img/2025-07-16-THM-Billing/meterpreter-session.png){: w="600"}
@@ -120,7 +121,7 @@ THM{********************************}
 
 And voila!
 
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXA2Z210MXB4bzBsODVwNmxreXYzNWQzaW10MXR1ODA5eWpuZDZhYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kxUhZ0TY46X1Dk48ru/giphy.gif){: w="500"}
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXA2Z210MXB4bzBsODVwNmxreXYzNWQzaW10MXR1ODA5eWpuZDZhYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kxUhZ0TY46X1Dk48ru/giphy.gif)
 
 ## Privilege escalation
 
@@ -192,13 +193,13 @@ cat /root/root.txt
 THM{********************************}
 ```
 
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazBncDNpcTIxaTQ0N3E4Njhjb2NhZWQwdXhxOGxqamdhbmdocTJyeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/STrEzUEFPWLsY/giphy.gif){: w="500"}
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazBncDNpcTIxaTQ0N3E4Njhjb2NhZWQwdXhxOGxqamdhbmdocTJyeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/STrEzUEFPWLsY/giphy.gif)
 
 All flags down, mission passed.
 
 Be proud of what you’ve accomplished.
 
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejBueW15czhhbm82bGZydWlmbjc2ZHJxdHZ0eHE3MjAwNDhjZWh5OSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ju7l5y9osyymQ/giphy.gif){: w="500"}
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejBueW15czhhbm82bGZydWlmbjc2ZHJxdHZ0eHE3MjAwNDhjZWh5OSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ju7l5y9osyymQ/giphy.gif)
 
 See you soon!
 
