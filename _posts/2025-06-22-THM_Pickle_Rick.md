@@ -8,7 +8,7 @@ description: Discover a comprehensive walkthrough of the 'Pickle Rick' CTF chall
 
 ---
 
-> Walkthrough of room Brains from TryHackMe :
+> Walkthrough of room Pickle Rick from TryHackMe :
 > [https://tryhackme.com/room/picklerick](https://tryhackme.com/room/picklerick)
 
 This Rick and Morty-themed challenge requires you to exploit a web server and find three ingredients to help Rick make his potion and transform himself back into a human from a pickle.
