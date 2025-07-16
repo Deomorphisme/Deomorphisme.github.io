@@ -17,6 +17,7 @@ This room is designed to teach you about billing systems and how to exploit them
 ## Recon
 
 We will start by some recon...
+
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG14ejdmY3dhd283Nm1obGswNGFuZDZvYmxndno5NXE5NXkzaWFmNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/i9cngh3Kw09GxlsrFP/giphy.gif)
 
 ```bash
