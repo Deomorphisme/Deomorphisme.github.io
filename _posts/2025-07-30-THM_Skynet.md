@@ -18,6 +18,7 @@ Let's go!!!
 
 ![Go!](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXF3djBkemk0bGw5bnh6cWkwMWdzZjRjemhjeWRrejdjYW54ZGt4ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r7ZtqpSM8GMta/giphy.gif)
 _Go!_
+
 ## Reconnaissance
 
 ![Recon tiiiime](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHJvOGZyNWtlNmpyd21uZTRjMnRscTFxcDBqaG0waDBqNWk5YjlraSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JBuDZwKcyrENW/giphy.gif)
@@ -56,6 +57,7 @@ This is the summary of the port scan.
 | NetBIOS      | 139         | TCP      | Open   |
 | IMAP         | 143         | TCP      | Open   |
 | Samba        | 445         | TCP      | Open   |
+
 ### SMB Enumeration
 
 Has we have a samba server hosted on the target, let's do a SMB enum using `enum4linux`:
@@ -83,6 +85,7 @@ enum4linux -a $TARGET
 | anonymous  | Disk            |
 | milesdyson | Disk            |
 | IPC$       | IPC             |
+
 **Share Mapping Attempts on 10.10.184.33**
 
 | Share Path                | Mapping |
@@ -90,6 +93,7 @@ enum4linux -a $TARGET
 | //10.10.184.33/print$     | DENIED  |
 | //10.10.184.33/anonymous  | OK      |
 | //10.10.184.33/milesdyson | DENIED  |
+
 ### SMB harvesting `anonymous` share
 
 ```bash
@@ -187,6 +191,7 @@ hydra -l milesdyson -P Dump/wordlist.skynet $TARGET smb
 _whyyyy_
 
 Okay, it is quite frustrating 😑 Let's see on the side of the Web app.
+
 ### WEB enumeration
 
 ```bash
@@ -336,6 +341,7 @@ The exploit didn't work for, I've got a `"WARNING: Failed to daemonise. This is 
 So if it does not work for you, switch to the **AttackBox**, it works totally fine.
 
 ![](/assets/img/2025-07-30-THM-Skynet/initial-access-www-data.png)
+
 ## Initial access
 After exploiting the vulnerability, the user flag is quite easy to find. Let's go to the root flag.
 
