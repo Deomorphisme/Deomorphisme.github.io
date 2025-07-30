@@ -1,6 +1,6 @@
 ---
 title: Write-up — Skynet
-date: 2025-07-30 18:00:00
+date: 2025-07-30 06:00:00 PM
 categories: [Write-up, Try Hack Me]
 tags: [Try Hack Me, Write-up, ctf]
 image: 'assets/img/articles/Skynet.png'
