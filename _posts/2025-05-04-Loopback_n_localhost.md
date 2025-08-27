@@ -1,7 +1,7 @@
 ---
 title: CyberRoadmap — Understanding Loopback and Localhost
 date: 2025-05-04 03:00:00 PM
-categories: [Cybersecurity Roadmap]
+categories: [Cybersecurity Roadmap, Networking Knowledge]
 tags: [Networking, TCP/IP, Cyber]
 image: 'assets/img/articles/localhost.png'
 description: This article delves into the fundamental networking concepts of loopback and localhost, essential for professionals in computer networking, cybersecurity, and coding. It explains how loopback interfaces facilitate local traffic for testing and diagnostics, ensuring secure, non-routable communications. The article highlights the role of localhost as a user-friendly reference to loopback addresses, crucial for developing and testing network services locally. It also covers advanced uses in containerization, providing a practical implementation guide using Python's HTTP.Server to solidify understanding. Ideal for enhancing knowledge in TCP/IP and secure network configurations.
