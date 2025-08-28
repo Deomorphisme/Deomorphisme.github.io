@@ -168,7 +168,7 @@ While PowerShell is generally preferred for new tasks, understanding CMD is stil
 
 ---
 
-### Why is This Important for Cybersecurity?
+## Why is This Important for Cybersecurity?
 
 Understanding CRUD isn't just about managing files; it's about understanding how data is handled at a fundamental level. In cybersecurity, this knowledge helps you to:
 
