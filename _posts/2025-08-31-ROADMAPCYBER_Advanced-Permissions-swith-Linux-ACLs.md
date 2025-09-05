@@ -9,7 +9,7 @@ description: "This guide explores access control lists (ACLs) in Linux, offering
 
 ---
 
-**From the same serie**
+**From the same series**
 
 1. [Understanding Linux File Permissions](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_1/)
 

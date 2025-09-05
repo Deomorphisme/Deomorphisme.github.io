@@ -9,7 +9,7 @@ description: "This guide explores special permissions in Linux - SUID, SGID, and
 
 ---
 
-**From the same serie**
+**From the same series**
 
 1. [Understanding Linux File Permissions](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_1/)
 

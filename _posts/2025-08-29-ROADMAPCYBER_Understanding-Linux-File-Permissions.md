@@ -9,7 +9,7 @@ description: "This guide teaches you the basics of Linux permissions, so you can
 
 ---
 
-**From the same serie**
+**From the same series**
 
 1. [Understanding Linux File Permissions](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_1/)
 
