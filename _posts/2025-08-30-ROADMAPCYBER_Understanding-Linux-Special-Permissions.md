@@ -11,15 +11,15 @@ description: "This guide explores special permissions in Linux - SUID, SGID, and
 
 **From the same serie**
 
-1. [Understanding Linux File Permissions]({{ site.baseurl }}/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_1/)
+1. [Understanding Linux File Permissions](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_1/)
 
-2. [Understanding Linux Special Permissions]({{ site.baseurl }}/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_2/)
+2. [Understanding Linux Special Permissions](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_2/)
 
-3. [Advanced Permissions with Linux ACLs]({{ site.baseurl }}/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_3/)
+3. [Advanced Permissions with Linux ACLs](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_3/)
 
 ---
 
-In the [previous article]({{ site.baseurl }}/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_1/), we covered the fundamental `rwx` permissions that everyone uses. But the Linux permission system has a few more tricks up its sleeve to handle special cases. These are the **special permissions**: SUID, SGID, and the sticky bit.
+In the [previous article](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_1/), we covered the fundamental `rwx` permissions that everyone uses. But the Linux permission system has a few more tricks up its sleeve to handle special cases. These are the **special permissions**: SUID, SGID, and the sticky bit.
 
 ### The SUID Bit: Running as the Owner
 
