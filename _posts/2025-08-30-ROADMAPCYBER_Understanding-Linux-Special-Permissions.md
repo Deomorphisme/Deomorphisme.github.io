@@ -1,13 +1,25 @@
 ---
-title: CyberRoadmap — Understanding Linux's Special Permissions
-date: 2025-08-30 08:00:00 AM
+title: CyberRoadmap — Understanding Linux Special Permissions
+date: 2025-08-30 08:00:00 +0200
 categories: [Cybersecurity Roadmap, Operating Systems]
 tags: [Linux, Bash, Permission]
 image: 'assets/img/articles/understand-linux-permission.jpg'
-description: the Linux permission system has a few more tricks up its sleeve to handle special cases. These are the special permissions (SUID, SGID, and the sticky bit).
+description: "This guide explores special permissions in Linux - SUID, SGID, and the sticky bit. Discover how these advanced tools can enhance security and facilitate collaboration on your system."
 ---
 
-In the previous article, we covered the fundamental `rwx` permissions that everyone uses. But the Linux permission system has a few more tricks up its sleeve to handle special cases. These are the **special permissions**: SUID, SGID, and the sticky bit.
+---
+
+**From the same serie**
+
+1. [Understanding Linux File Permissions]({{ site.baseurl }}/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_1/)
+
+2. [Understanding Linux Special Permissions]({{ site.baseurl }}/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_2/)
+
+3. [Advanced Permissions with Linux ACLs]({{ site.baseurl }}/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_3/)
+
+---
+
+In the [previous article]({{ site.baseurl }}/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_1/), we covered the fundamental `rwx` permissions that everyone uses. But the Linux permission system has a few more tricks up its sleeve to handle special cases. These are the **special permissions**: SUID, SGID, and the sticky bit.
 
 ### The SUID Bit: Running as the Owner
 
@@ -25,7 +37,7 @@ Let's consider two user `hisoka` and `johndoe`. `johndoe` can't create file and 
 drwxrwxr-x 2 hisoka hisoka     4096 Sep  1 02:04 Dump
 ```
 
-![](/assets/img/2025-09-06-Understanding-linux-permission-2/screen1.png)
+![](assets/img/2025-09-06-Understanding-linux-permission-2/screen1.png)
 
 Let's create a script that allow to create a new file containing `Hello I'm the new file`.
 
@@ -66,24 +78,26 @@ int main(int argc, char *argv[]) {
 
 ```
 
-![](/assets/img/2025-09-06-Understanding-linux-permission-2/screen2.png)
+![](assets/img/2025-09-06-Understanding-linux-permission-2/screen2.png)
 _Everything works well_
 
 But when `johndoe` tries to use this command...
 
-![](/assets/img/2025-09-06-Understanding-linux-permission-2/screen3.png)
+![](assets/img/2025-09-06-Understanding-linux-permission-2/screen3.png)
 
 It's important to know that `johndoe` has the permission to execute the script (`-rwxrwxr-x new_file.sh`) but the line 5 of the script doesn't match with permission set of the directory `Dump`.
 
 Let's try to set the SUID bit and see how it's going.
 
-![](/assets/img/2025-09-06-Understanding-linux-permission-2/screen4.png)
+![](assets/img/2025-09-06-Understanding-linux-permission-2/screen4.png)
 
-![](/assets/img/2025-09-06-Understanding-linux-permission-2/screen5.png)
+![](assets/img/2025-09-06-Understanding-linux-permission-2/screen5.png)
 
 Now `johndoe` can successfully create a new file with thanks to SUID bit.
 
-- [!] In security, it is sometime problematic. Because if the script execute critical actions on the system, it can lead to **information disclosure**, **data thief**, or even **privilege escalation**.
+> In security, it may be problematic because if the script executes critical operations on the system, it can lead to **information disclosure**, **data thief**, or **privilege escalation**.
+{: .prompt-info }
+
 ### The SGID Bit: Sharing Group Privileges
 
 The **SGID** (Set Group ID) bit works similarly to SUID, but for groups. When it's set on an executable file, the program runs with the permissions of the file's **group**.
@@ -93,6 +107,7 @@ The most common use of SGID, however, is on **directories**. When the SGID bit i
 This is extremely useful for collaborative projects. Imagine a directory shared by the `developers` group with the SGID bit set. If a user named `alice` creates a new file, it will automatically belong to the `developers` group. This means every member of that group can immediately access and edit it, without anyone needing to manually change permissions.
 
 You'll see the SGID bit as an `s` in the group's permission field.
+    
 
 ### The Sticky Bit: Protecting Shared Files
 
@@ -103,5 +118,6 @@ You'll see the sticky bit as a `t` in the "others" permission field, like in the
 Without the sticky bit, any user could delete any file in `/tmp`, which would cause chaos. The sticky bit ensures that a user can only delete their own files, even though everyone has write access to the directory.
 
 These special permissions are powerful tools that help maintain security and streamline collaboration on a Linux system. They're a core part of what makes Linux so flexible and robust.
+
 
 {% include comment.html %}

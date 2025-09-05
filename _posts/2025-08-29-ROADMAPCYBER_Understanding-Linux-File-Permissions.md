@@ -1,10 +1,22 @@
 ---
-title: CyberRoadmap — Understanding Linux File Permissions 1
-date: 2025-08-29 08:00:00 AM
+title: CyberRoadmap — Understanding Linux File Permissions
+date: 2025-08-29 08:00:00 +0200
 categories: [Cybersecurity Roadmap, Operating Systems]
 tags: [Linux, Bash, Permission]
 image: 'assets/img/articles/understand-linux-permission.jpg'
-description: This guide will walk you through the basics of Linux permissions, so you can start managing your files with confidence.
+description: "This guide teaches you the basics of Linux permissions, so you can confidently manage your files."
+---
+
+---
+
+**From the same serie**
+
+1. [Understanding Linux File Permissions](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_1/)
+
+2. [Understanding Linux Special Permissions](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_2/)
+
+3. [Advanced Permissions with Linux ACLs](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_3/)
+
 ---
 
 Have you ever tried to open a file on Linux and been hit with a "Permission denied" error? Or maybe you've tried to change a file and couldn't? It's a common experience, but once you understand how Linux handles file permissions, it all starts to make sense.

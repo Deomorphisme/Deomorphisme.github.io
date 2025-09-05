@@ -1,10 +1,22 @@
 ---
-title: CyberRoadmap — Understanding Linux's Special Permissions
-date: 2025-08-31 08:00:00 AM
+title: CyberRoadmap — Advanced Permissions with Linux ACLs
+date: 2025-08-31 08:00:00 0+200
 categories: [Cybersecurity Roadmap, Operating Systems]
 tags: [Linux, Bash, Permission]
 image: 'assets/img/articles/understand-linux-permission.jpg'
-description: Linux provides Access Control Lists (ACLs). ACLs let you go beyond the simple `owner/group/others` model and define very specific permissions for individual users or groups.
+description: "This guide explores access control lists (ACLs) in Linux, offering more granular permission management. Learn how to use getfacl and setfacl to manage specific permissions for individual users or groups."
+---
+
+---
+
+**From the same serie**
+
+1. [Understanding Linux File Permissions](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_1/)
+
+2. [Understanding Linux Special Permissions](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_2/)
+
+3. [Advanced Permissions with Linux ACLs](https://cyber-owl.xyz/posts/ROADMAPCYBER_Understanding_Linux_File_Permissions_Part_3/)
+
 ---
 
 We've covered the basics of Linux permissions, from `rwx` to the special SUID and SGID bits. But what if you have a unique permission need? For example, what if you want to give read-only access to a specific user who isn't in the file's group, without giving the same access to everyone else?
