@@ -40,7 +40,7 @@ A quick Google search for **Simple Image Gallery System** allows me to identify 
 By submitting a random password for the `admin` user, I found an interesting HTTP response.
 
 **REQUEST**
-```HTTP
+```
 POST /gallery/classes/Login.php?f=login HTTP/1.1
 Host: 10.10.15.221
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
@@ -60,7 +60,7 @@ username=admin&password=sqlvkr
 ```
 
 **RESPONSE**
-```HTTP
+```
 HTTP/1.1 200 OK
 Date: Thu, 30 Oct 2025 22:54:58 GMT
 Server: Apache/2.4.41 (Ubuntu)
