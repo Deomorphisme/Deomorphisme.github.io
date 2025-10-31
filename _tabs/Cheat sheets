@@ -1,0 +1,8 @@
+---
+# the default layout is 'page'
+icon: fa-solid fa-paperclip
+order: 6
+---
+
+<h2> CRUD operations on files and directories (Bash, Powershell, CMD) </h2>
+<iframe src="{{ 'assets/files/CRUD Operations Cheat Sheet.pdf' | relative_url }}" width="100%" height="650px" style="border: none;"></iframe>

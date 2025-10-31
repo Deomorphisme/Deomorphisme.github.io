@@ -16,10 +16,10 @@ timezone: Europe/Paris
 
 title: Cyber Owl # the main title
 
-tagline: Cybersecurity engineer # it will display as the subtitle
+tagline: Cybersecurity engineer journey # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Discover expert insights on penetration testing, defensive security, and security frameworks. Our site offers in-depth guides, best practices, and the latest updates on regulatory compliance for IT professionals and security enthusiasts. Enhance your skills and stay protected with our comprehensive resources and tutorials.
+  Discover detailed CTF write-ups from TryHackMe, Hack The Box, and OverTheWire. Our blog simplifies complex cybersecurity topics and delivers the latest industry news. Ideal for both beginners and experts.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -140,7 +140,7 @@ assets:
 pwa:
   enabled: true # The option for PWA feature (installable)
   cache:
-    enabled: true # The option for PWA offline cache
+    enabled: false # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
