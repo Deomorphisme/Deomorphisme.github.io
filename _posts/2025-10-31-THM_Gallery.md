@@ -39,6 +39,7 @@ A quick Google search for **Simple Image Gallery System** allows me to identify 
 ### SQL Injection
 By submitting a random password for the `admin` user, I found an interesting HTTP response.
 
+**REQUEST**
 ```HTTP
 POST /gallery/classes/Login.php?f=login HTTP/1.1
 Host: 10.10.15.221
@@ -58,6 +59,7 @@ Priority: u=0
 username=admin&password=sqlvkr
 ```
 
+**RESPONSE**
 ```HTTP
 HTTP/1.1 200 OK
 Date: Thu, 30 Oct 2025 22:54:58 GMT
@@ -73,6 +75,7 @@ Content-Type: text/html; charset=UTF-8
 
 {"status":"incorrect","last_qry":"SELECT * from users where username = 'admin' and password = md5('sqlvkr') "}
 ```
+
 
 The SQL query executed after my request. *What a neat SQL injection!*
 
