@@ -7,7 +7,7 @@ image: 'assets/img/articles/Skynet.png'
 description: "Boost your cybersecurity skills with TryHackMe's Skynet room! This hands-on, Terminator-themed challenge focuses on penetration testing and ethical hacking. Perfect for intermediate learners, it covers network scanning, exploiting web vulnerabilities, and privilege escalation. Join now to master essential hacking techniques and gain root access through engaging, practical exercises."
 ---
 
-> Walkthrough of room Billing from TryHackMe :
+> Walkthrough of room Skynet from TryHackMe :
 > https://tryhackme.com/room/skynet
 
 This room is designed to immerse you in a Terminator-themed cybersecurity challenge, focusing on penetration testing and ethical hacking techniques. It covers network scanning, web vulnerabilities, and privilege escalation to gain root access.
