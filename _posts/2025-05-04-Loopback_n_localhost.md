@@ -77,22 +77,3 @@ To truly grasp the concepts of loopback and localhost, a hands-on approach is be
       ![Screenshot 2025-05-04 at 15.15.03](assets/img/2025-05-04-Loopback_n_localhost/web_screen.png)
 
 By following these steps, you can see firsthand how localhost and loopback work together to enable secure and efficient local network communication.
-
-
-## Comments
-<script src="https://giscus.app/client.js"
-        data-repo="Deomorphisme/Deomorphisme.github.io"
-        data-repo-id="R_kgDONEIr-Q"
-        data-category="General"
-        data-category-id="DIC_kwDONEIr-c4CjomU"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>

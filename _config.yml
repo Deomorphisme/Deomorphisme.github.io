@@ -88,7 +88,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: dark # [light | dark]
+theme_mode: # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -119,15 +119,15 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: Deomorphisme/Deomorphisme.github.io # <gh-username>/<repo>
-    repo_id: R_kgDONEIr-Q
+    repo: 'Deomorphisme/Deomorphisme.github.io' # <gh-username>/<repo>
+    repo_id: 'R_kgDOQSciag'
     category: General
-    category_id: DIC_kwDONEIr-c4CjomU
-    mapping: pathname # optional, default to 'pathname'
-    strict: 0 # optional, default to '0'
-    input_position: top # optional, default to 'bottom'
+    category_id: 'DIC_kwDOQScias4Cxnde'
+    mapping: 'pathname' # optional, default to 'pathname'
+    strict: '0' # optional, default to '0'
+    input_position: 'top' # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
-    reactions_enabled: 1 # optional, default to the value of `1`
+    reactions_enabled: '1' # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
@@ -147,7 +147,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+paginate: 15
 
 # The base URL of your site
 baseurl: ""

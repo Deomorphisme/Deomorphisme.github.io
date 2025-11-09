@@ -92,5 +92,3 @@ setfacl -b my_report.txt
 This will strip the file of all extended permissions and return it to the basic owner, group, and others setup.
 
 With `getfacl` and `setfacl`, you have a powerful way to manage file access with a level of control that goes far beyond the traditional permission system. This is what makes ACLs an indispensable tool for advanced Linux administration.
-
-{% include comment.html %}

@@ -153,6 +153,3 @@ sudo useradd -s /bin/bash johndoe
 ```
 
 Hopefully, this helps you feel more comfortable navigating the Linux permission system!
-
-
-{% include comment.html %}

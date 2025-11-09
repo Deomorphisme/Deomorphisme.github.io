@@ -118,6 +118,3 @@ You'll see the sticky bit as a `t` in the "others" permission field, like in the
 Without the sticky bit, any user could delete any file in `/tmp`, which would cause chaos. The sticky bit ensures that a user can only delete their own files, even though everyone has write access to the directory.
 
 These special permissions are powerful tools that help maintain security and streamline collaboration on a Linux system. They're a core part of what makes Linux so flexible and robust.
-
-
-{% include comment.html %}

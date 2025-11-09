@@ -182,5 +182,3 @@ This might seem basic, but these commands are your building blocks for much more
 ## Cheat sheet
 
 <iframe src="{{ 'assets/files/CRUD Operations Cheat Sheet.pdf' | relative_url }}" width="100%" height="650px" style="border: none;"></iframe>
-
-{% include comment.html %}

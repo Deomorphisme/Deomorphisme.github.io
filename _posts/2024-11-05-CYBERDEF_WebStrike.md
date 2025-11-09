@@ -110,21 +110,3 @@ Be proud of what you’ve accomplished.
 See you soon!
 
 > “There are only two different types of companies in the world: those that have been breached and know it and those that have been breached and don’t know it.” ― Ted Schlein
-
-## Comments
-<script src="https://giscus.app/client.js"
-        data-repo="Deomorphisme/Deomorphisme.github.io"
-        data-repo-id="R_kgDONEIr-Q"
-        data-category="General"
-        data-category-id="DIC_kwDONEIr-c4CjomU"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>

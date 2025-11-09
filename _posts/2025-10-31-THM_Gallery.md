@@ -285,21 +285,3 @@ See you soon!
 
 > "SQL injection is often referenced as the most common type of attack on websites. It is being used extensively by hackers and pen-testers on web applications."
 OWASP Top Ten
-
-## Comments
-<script src="https://giscus.app/client.js"
-        data-repo="Deomorphisme/Deomorphisme.github.io"
-        data-repo-id="R_kgDONEIr-Q"
-        data-category="General"
-        data-category-id="DIC_kwDONEIr-c4CjomU"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>

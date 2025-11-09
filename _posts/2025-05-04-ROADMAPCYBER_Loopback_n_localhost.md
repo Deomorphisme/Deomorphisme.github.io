@@ -77,6 +77,3 @@ To truly grasp the concepts of loopback and localhost, a hands-on approach is be
       ![Screenshot 2025-05-04 at 15.15.03](assets/img/2025-05-04-Loopback_n_localhost/web_screen.png)
 
 By following these steps, you can see firsthand how localhost and loopback work together to enable secure and efficient local network communication.
-
-
-{% include comment.html %}
